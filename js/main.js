@@ -3,10 +3,11 @@ window.licker = window.licker || {};
   'use strict';
 
   $(function() {
-    ns.page.top.init();
-    ns.page.daily.init();
+    init();
   });
 
   function init() {
+    ns.page.top.init();
+    ns.page.daily.init();
   }
 }(window.licker));
