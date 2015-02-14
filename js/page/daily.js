@@ -19,9 +19,9 @@ window.licker.page = window.licker.page || {};
   }
 
   /*
-   *  user: user ID (stub)
+   *  userId: user ID
    */
-  function update(user) {
+  function update(userId) {
     var $tmpl = $(ns.util.findClass($page, 'template-item-event').text());
 
     $listEvent.html('');

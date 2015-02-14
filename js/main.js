@@ -4,6 +4,9 @@ window.licker = window.licker || {};
 
   $(function() {
     init();
+
+// stub
+//    ns.userList = $.getJSON('http://team-one.azurewebsites.net/api/users');
   });
 
   function init() {
