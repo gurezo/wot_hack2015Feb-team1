@@ -9,7 +9,6 @@ window.licker.page = window.licker.page || {};
   function init() {
     $page = ns.util.getClass('page-daily');
     $listEvent = ns.util.findClass($page, 'list-event');
-    console.log($page);
 
     $listEvent.attr('data-display', 'all');
     ns.util.findClass($page, 'filter-action').on('change', function(evt) {
@@ -24,6 +23,8 @@ window.licker.page = window.licker.page || {};
    */
   function update(user) {
     var $tmpl = $(ns.util.findClass($page, 'template-item-event').text());
+
+    $listEvent.html('');
 
     $.getJSON('./js/data/sample.json', function(json) {
       json.content.forEach(function(elm) {

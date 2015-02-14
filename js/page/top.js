@@ -3,16 +3,23 @@ window.licker.page = window.licker.page || {};
 (function(ns, app) {
   'use strict';
 
-  var $page = ns.util.getClass('page-top');
+  var $page;
+  var $user;
 
   function init() {
     $page = ns.util.getClass('page-top');
-    ns.util.findClass($page, 'user-1');
+
+    $user = ns.util.findClass($page, 'user');
+
+    $user.on('click', function(evt) {
+      var id = $(evt.target).attr('data-id');
+      ns.page.daily.update(id);
+    });
   }
 
   /*
    */
-  function update(user) {
+  function update() {
     console.log('update top');
 //    $.getJSON('./js/data/sample.json', function(json) {
 //      json.content.forEach(function(elm) {
