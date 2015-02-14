@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+
+  font-family: Verdana, Roboto, 'Droid Sans', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;;
+}
+
+body {
+  background-color: #000;
+}
+
+.wrapper {
+  position: relative;
+  width: 320px;
+  height: 100%;
+  margin: 0 auto;
+  max-height: 690px;
+  overflow: hidden;
+
+  background-color: #a4bed7;
+}
