@@ -1,11 +1,30 @@
 .screen-daily {
   > h1 {
-    display: none;
+    padding: 12px 8px;
+    background-color: #121267;
+    color: #fff;
   }
 
   .info-box {
     .list-event {
       .item-event {
+        position: relative;
+        background-color: #fff;
+        margin: 4px;
+        padding: 8px 4px;
+        border-radius: 4px;
+        .block {
+          .paragraph {
+              .time {
+                font-size: 12px;
+              }
+              .place {
+                color: #999;
+              }
+              .action {
+              }
+          }
+        }
       }
     }
   }

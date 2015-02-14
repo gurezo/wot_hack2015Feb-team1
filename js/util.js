@@ -18,8 +18,13 @@ window.licker.util = window.licker.util || {};
     return $('[data-js-class~=' + className + ']');
   }
 
+  function findClass($elm ,className) {
+    return $elm.find('[data-js-class~=' + className + ']');
+  }
+
   ns.util = {
     getClass: getClass,
+    findClass: findClass,
     removeClassCallback: removeClassCallback
   }
 }(window.licker));

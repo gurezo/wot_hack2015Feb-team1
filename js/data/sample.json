@@ -1,0 +1,44 @@
+{
+  "content": [
+    {
+      "time_start": "10:00",
+      "place": "家",
+      "action": "出る"
+    },
+    {
+      "time_start": "11:30",
+      "place": "ダイエー",
+      "action": "降りる"
+    },
+    {
+      "time_start": "12:30",
+      "place": "ダイエー",
+      "action": "乗る"
+    },
+    {
+      "time_start": "12:45",
+      "place": "XXX交差点",
+      "action": "急ブレーキ"
+    },
+    {
+      "time_start": "12:55",
+      "place": "YYY交差点",
+      "action": "急ブレーキ"
+    },
+    {
+      "time_start": "13:00",
+      "place": "マルエツ",
+      "action": "降りる"
+    },
+    {
+      "time_start": "13:30",
+      "place": "マルエツ",
+      "action": "乗る"
+    },
+    {
+      "time_start": "14:00",
+      "place": "家",
+      "action": "帰宅"
+    }
+  ]
+}

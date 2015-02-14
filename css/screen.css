@@ -88,5 +88,23 @@ body {
 
 /* line 2, ../_devel/sass/_daily.scss */
 .screen-daily > h1 {
-  display: none;
+  padding: 12px 8px;
+  background-color: #121267;
+  color: #fff;
+}
+/* line 10, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event .item-event {
+  position: relative;
+  background-color: #fff;
+  margin: 4px;
+  padding: 8px 4px;
+  border-radius: 4px;
+}
+/* line 18, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event .item-event .block .paragraph .time {
+  font-size: 12px;
+}
+/* line 21, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event .item-event .block .paragraph .place {
+  color: #999;
 }

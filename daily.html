@@ -14,18 +14,26 @@
   <p class="bg-overlay"></p>
 
   <div class="screen screen-daily">
-    <h1>メイン画面</h1>
+    <h1>アクションログ（日別）</h1>
 
     <div class="info-box">
-      <div class="list-event">
-        <section class="item-event" data-js-class="event">
-          <h1 class="text-topic">テスト</h1>
-          <p class="text-date">2015.02.14 17:03</p>
-        </section>
+      <div class="list-event" data-js-class="list-event">
       </div>
     </div>
   </div>
 </div>
+
+<script type="text/template" data-js-class="template-item-event">
+<section class="item-event" data-js-class="event">
+  <div class="block">
+    <p class="paragraph">
+      <span class="time"><time data-js-class="time-start"></time></span>
+      <span class="place" data-js-class="place"></span>
+      <span class="action" data-js-class="action"></span>
+    </p>
+  </div>
+</section>
+</script>
 
 <script src="./js/lib/jquery.js"></script>
 <script src="./js/util.js"></script>
