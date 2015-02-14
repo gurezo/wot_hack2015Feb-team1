@@ -15,11 +15,11 @@ window.licker.util = window.licker.util || {};
   }
 
   function getClass(className) {
-    return $('[data-js-class~=' + className + ']');
+    return $('[data-js-class~="' + className + '"]');
   }
 
   function findClass($elm ,className) {
-    return $elm.find('[data-js-class~=' + className + ']');
+    return $elm.find('[data-js-class~="' + className + '"]');
   }
 
   ns.util = {
