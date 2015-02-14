@@ -3,5 +3,8 @@
 @import "compass/css3";
 
 @import "mixin";
-@import "common";
-@import "daily";
+
+// pages
+@import "page/common";
+@import "page/top";
+@import "page/daily";
