@@ -3,11 +3,16 @@ window.licker.page = window.licker.page || {};
 (function(ns, app) {
   'use strict';
 
-  var $listEvent = ns.util.getClass('list-event');
+  var $page;
+  var $listEvent;
 
   function init() {
+    $page = ns.util.getClass('page-daily');
+    $listEvent = ns.util.findClass($page, 'list-event');
+    console.log($page);
+
     $listEvent.attr('data-display', 'all');
-    ns.util.getClass('filter-action').on('change', function(evt) {
+    ns.util.findClass($page, 'filter-action').on('change', function(evt) {
       $listEvent.attr('data-display', evt.target.value);
     });
     
@@ -18,7 +23,7 @@ window.licker.page = window.licker.page || {};
    *  user: user ID (stub)
    */
   function update(user) {
-    var $tmpl = $(ns.util.getClass('template-item-event').text());
+    var $tmpl = $(ns.util.findClass($page, 'template-item-event').text());
 
     $.getJSON('./js/data/sample.json', function(json) {
       json.content.forEach(function(elm) {

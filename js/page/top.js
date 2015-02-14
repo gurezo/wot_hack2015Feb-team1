@@ -3,9 +3,11 @@ window.licker.page = window.licker.page || {};
 (function(ns, app) {
   'use strict';
 
+  var $page = ns.util.getClass('page-top');
+
   function init() {
-    var $screen = ns.util.getClass('page-top');
-    ns.util.findClass($screen, 'user-1');
+    $page = ns.util.getClass('page-top');
+    ns.util.findClass($page, 'user-1');
   }
 
   /*
