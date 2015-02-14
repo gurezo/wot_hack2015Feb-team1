@@ -1,7 +1,0 @@
-@mixin header-button($img) {
-  width: image-width($img) / 2;
-  height: image-height($img) / 2;
-  background-image: image-url($img);
-  background-repeat: no-repeat;
-  background-size: image-width($img) / 2 image-height($img) / 2;
-}
