@@ -86,25 +86,85 @@ body {
   background-color: #a4bed7;
 }
 
-/* line 2, ../_devel/sass/_daily.scss */
+/* line 4, ../_devel/sass/_daily.scss */
 .screen-daily > h1 {
   padding: 12px 8px;
   background-color: #121267;
   color: #fff;
 }
 /* line 10, ../_devel/sass/_daily.scss */
+.screen-daily .filter-action {
+  margin: 4px;
+}
+/* line 16, ../_devel/sass/_daily.scss */
 .screen-daily .info-box .list-event .item-event {
   position: relative;
   background-color: #fff;
   margin: 4px;
-  padding: 8px 4px;
   border-radius: 4px;
+  height: 0px;
+  overflow: hidden;
 }
-/* line 18, ../_devel/sass/_daily.scss */
+/* line 25, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event .item-event .block {
+  padding: 8px 4px;
+}
+/* line 28, ../_devel/sass/_daily.scss */
 .screen-daily .info-box .list-event .item-event .block .paragraph .time {
   font-size: 12px;
 }
-/* line 21, ../_devel/sass/_daily.scss */
+/* line 31, ../_devel/sass/_daily.scss */
 .screen-daily .info-box .list-event .item-event .block .paragraph .place {
   color: #999;
+}
+/* line 41, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event[data-display="all"] .item-event {
+  height: 32px;
+}
+/* line 45, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event .item-event {
+  -moz-transition: height 0.2s linear;
+  -o-transition: height 0.2s linear;
+  -webkit-transition: height 0.2s linear;
+  transition: height 0.2s linear;
+}
+/* line 50, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event[data-display=出る] .item-event {
+  height: 0px;
+}
+/* line 53, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event[data-display=出る] .item-event[data-action=出る] {
+  height: 32px;
+}
+/* line 50, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event[data-display=帰宅] .item-event {
+  height: 0px;
+}
+/* line 53, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event[data-display=帰宅] .item-event[data-action=帰宅] {
+  height: 32px;
+}
+/* line 50, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event[data-display=乗る] .item-event {
+  height: 0px;
+}
+/* line 53, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event[data-display=乗る] .item-event[data-action=乗る] {
+  height: 32px;
+}
+/* line 50, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event[data-display=降りる] .item-event {
+  height: 0px;
+}
+/* line 53, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event[data-display=降りる] .item-event[data-action=降りる] {
+  height: 32px;
+}
+/* line 50, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event[data-display=急ブレーキ] .item-event {
+  height: 0px;
+}
+/* line 53, ../_devel/sass/_daily.scss */
+.screen-daily .info-box .list-event[data-display=急ブレーキ] .item-event[data-action=急ブレーキ] {
+  height: 32px;
 }

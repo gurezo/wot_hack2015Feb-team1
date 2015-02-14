@@ -1,8 +1,14 @@
 .screen-daily {
+  $box-h: 32px;
+
   > h1 {
     padding: 12px 8px;
     background-color: #121267;
     color: #fff;
+  }
+
+  .filter-action {
+    margin: 4px;
   }
 
   .info-box {
@@ -11,9 +17,13 @@
         position: relative;
         background-color: #fff;
         margin: 4px;
-        padding: 8px 4px;
         border-radius: 4px;
+        
+        height: 0px;
+        overflow: hidden;
+        
         .block {
+          padding: 8px 4px;
           .paragraph {
               .time {
                 font-size: 12px;
@@ -23,6 +33,25 @@
               }
               .action {
               }
+          }
+        }
+      }
+
+      &[data-display="all"] {
+        .item-event {
+          height: $box-h;
+        }
+      }
+      .item-event {
+        @include transition(height 0.2s linear);
+      }
+      @each $val in "出る", "帰宅", "乗る", "降りる", "急ブレーキ" {
+        &[data-display=#{$val}] {
+          .item-event {
+            height: 0px;
+          }
+          .item-event[data-action=#{$val}] {
+            height: $box-h;
           }
         }
       }
