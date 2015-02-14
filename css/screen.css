@@ -87,17 +87,17 @@ body {
 }
 
 /* line 4, ../_devel/sass/page/_daily.scss */
-.screen-daily > h1 {
+.page-daily > h1 {
   padding: 12px 8px;
   background-color: #121267;
   color: #fff;
 }
 /* line 10, ../_devel/sass/page/_daily.scss */
-.screen-daily .filter-action {
+.page-daily .filter-action {
   margin: 4px;
 }
 /* line 16, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event .item-event {
+.page-daily .info-box .list-event .item-event {
   position: relative;
   background-color: #fff;
   margin: 4px;
@@ -106,65 +106,65 @@ body {
   overflow: hidden;
 }
 /* line 25, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event .item-event .block {
+.page-daily .info-box .list-event .item-event .block {
   padding: 8px 4px;
 }
 /* line 28, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event .item-event .block .paragraph .time {
+.page-daily .info-box .list-event .item-event .block .paragraph .time {
   font-size: 12px;
 }
 /* line 31, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event .item-event .block .paragraph .place {
+.page-daily .info-box .list-event .item-event .block .paragraph .place {
   color: #999;
 }
 /* line 41, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event[data-display="all"] .item-event {
+.page-daily .info-box .list-event[data-display="all"] .item-event {
   height: 32px;
 }
 /* line 45, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event .item-event {
+.page-daily .info-box .list-event .item-event {
   -moz-transition: height 0.2s linear;
   -o-transition: height 0.2s linear;
   -webkit-transition: height 0.2s linear;
   transition: height 0.2s linear;
 }
 /* line 50, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event[data-display=出る] .item-event {
+.page-daily .info-box .list-event[data-display=出る] .item-event {
   height: 0px;
 }
 /* line 53, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event[data-display=出る] .item-event[data-action=出る] {
+.page-daily .info-box .list-event[data-display=出る] .item-event[data-action=出る] {
   height: 32px;
 }
 /* line 50, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event[data-display=帰宅] .item-event {
+.page-daily .info-box .list-event[data-display=帰宅] .item-event {
   height: 0px;
 }
 /* line 53, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event[data-display=帰宅] .item-event[data-action=帰宅] {
+.page-daily .info-box .list-event[data-display=帰宅] .item-event[data-action=帰宅] {
   height: 32px;
 }
 /* line 50, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event[data-display=乗る] .item-event {
+.page-daily .info-box .list-event[data-display=乗る] .item-event {
   height: 0px;
 }
 /* line 53, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event[data-display=乗る] .item-event[data-action=乗る] {
+.page-daily .info-box .list-event[data-display=乗る] .item-event[data-action=乗る] {
   height: 32px;
 }
 /* line 50, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event[data-display=降りる] .item-event {
+.page-daily .info-box .list-event[data-display=降りる] .item-event {
   height: 0px;
 }
 /* line 53, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event[data-display=降りる] .item-event[data-action=降りる] {
+.page-daily .info-box .list-event[data-display=降りる] .item-event[data-action=降りる] {
   height: 32px;
 }
 /* line 50, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event[data-display=急ブレーキ] .item-event {
+.page-daily .info-box .list-event[data-display=急ブレーキ] .item-event {
   height: 0px;
 }
 /* line 53, ../_devel/sass/page/_daily.scss */
-.screen-daily .info-box .list-event[data-display=急ブレーキ] .item-event[data-action=急ブレーキ] {
+.page-daily .info-box .list-event[data-display=急ブレーキ] .item-event[data-action=急ブレーキ] {
   height: 32px;
 }

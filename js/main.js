@@ -9,5 +9,7 @@ window.licker = window.licker || {};
   function init() {
     ns.page.top.init();
     ns.page.daily.init();
+    
+    ns.page.top.update();
   }
 }(window.licker));

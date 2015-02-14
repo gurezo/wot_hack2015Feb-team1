@@ -4,7 +4,8 @@ window.licker.page = window.licker.page || {};
   'use strict';
 
   function init() {
-    update();
+    var $screen = ns.util.getClass('page-top');
+    ns.util.findClass($screen, 'user-1');
   }
 
   /*
