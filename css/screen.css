@@ -64,18 +64,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 1, ../_devel/sass/page/_common.scss */
+/* line 2, ../_devel/sass/page/_common.scss */
 html, body {
   height: 100%;
+  background-color: #fff;
   font-family: Verdana, Roboto, 'Droid Sans', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
 }
 
-/* line 7, ../_devel/sass/page/_common.scss */
-body {
-  background-color: #000;
-}
-
-/* line 11, ../_devel/sass/page/_common.scss */
+/* line 10, ../_devel/sass/page/_common.scss */
 .wrapper {
   position: relative;
   width: 320px;
@@ -83,7 +79,6 @@ body {
   margin: 0 auto;
   max-height: 690px;
   overflow: hidden;
-  background-color: #a4bed7;
 }
 
 /* line 4, ../_devel/sass/page/_daily.scss */
@@ -99,7 +94,7 @@ body {
 /* line 16, ../_devel/sass/page/_daily.scss */
 .page-daily .info-box .list-event .item-event {
   position: relative;
-  background-color: #fff;
+  background-color: #ccf;
   margin: 4px;
   border-radius: 4px;
   height: 0px;
