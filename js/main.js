@@ -5,8 +5,9 @@ window.licker = window.licker || {};
   $(function() {
     init();
 
-// stub
-//    ns.userList = $.getJSON('http://team-one.azurewebsites.net/api/users');
+    $.getJSON('http://team-one.azurewebsites.net/api/users', function(json) {
+      ns.userList = json;
+    });
   });
 
   function init() {

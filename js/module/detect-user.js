@@ -5,9 +5,10 @@ window.licker.module = window.licker.module || {};
 
   /*
    *  乗っているユーザーの取得
+      return: ユーザーID
    */
   function analyze(data) {
-    var userId = 1;
+    var userId = 2;
     var ret = userId;
 
     return ret;

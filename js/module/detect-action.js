@@ -14,7 +14,7 @@ window.licker.module = window.licker.module || {};
     return ret;
   }
 
-  app.detectUser = {
+  app.detectAction = {
     analyze: analyze
   }
 }(window.licker, window.licker.module));

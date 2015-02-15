@@ -20,8 +20,8 @@ window.licker.page = window.licker.page || {};
   /*
    */
   function update() {
-// stub
-//    var userList = ns.module.detectUser();
+    var userList = ns.module.detectUser.analyze();
+    console.log(userList);
   }
 
   app.top = {
